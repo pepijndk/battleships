@@ -1,28 +1,27 @@
-h2{
+h2 {
     font-family: 'Impact';
     color: Snow;
-    text-shadow:0px 5px 10px #05fff9;
+    text-shadow: 0px 5px 10px #05fff9;
     font-weight: bold;
     border-top: -50px;
     font-size: 2em;
     margin-left: 0.25em;
     text-align: inline;
     position: absolute;
-   
+
 }
-.fire{
+
+.fire {
     font-family: 'Impact';
     color: greenyellow;
-    text-shadow:0px 5px 10px #ffffff;
+    text-shadow: 0px 5px 10px #ffffff;
     font-size: 1em;
     font-weight: bold;
     text-align: left;
-	opacity:0
+    opacity: 0
 }
 
-
-
-.image1{
+.image1 {
     /*position: inline;*/
     /*transform:matrix(0.30,0.00,0.00,0.30,0,0);*/
     /*-ms-transform:matrix(0.30,0.00,0.00,0.30,0,0);*/
@@ -31,8 +30,7 @@ h2{
 }
 
 .caption {
-display: block;
-
+    display: block;
 
 }
 
@@ -41,71 +39,63 @@ display: block;
     top: 50%;
     left: 30%;
     transform: translate(-50%, -50%);
-  }
+}
 
 .gridDiv2 {
-position: absolute;
-top: 50%;
-left: 70%;
-transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
 
 }
 
-.exit{
-background-color: transparent;
-border-top:5px outset #30e4ff;
-border-right:5px outset #30e4ff;
-border-bottom:5px outset #30e4ff;
-border-left:5px outset #30e4ff;
--webkit-box-shadow:0px 0px 5px 5px #ffffff ;
--moz-box-shadow:0px 0px 5px 5px #ffffff ;
-box-shadow:0px 0px 5px 5px #ffffff ;
-position: absolute;
-padding-right: 50px;
-padding-left: 50px;
-bottom: 5px;
-right: 5px;
+.button {
+
+    font-size: 30px;
+    position: absolute;
+    padding-right: 50px;
+    padding-left: 50px;
+    bottom: 5px;
+    right: 5px;
 }
 
-  h3{
+h3 {
     font-family: 'Andale Mono';
     color: Snow;
-    display:inline;
+    display: inline;
     font-size: 0.75em;
     margin-left: 0em;
-  }
-
-  .button {
-    padding: 10px; border-radius: 50px; 
-    font-weight: normal; 
-    text-decoration: none; 
-    text-transform: none; 
-    background-image:aqua; 
 }
-    .button1:hover {
-    background: rgb(58, 249, 102); }
-    .button1:active {
-    background:rgb(58, 249, 102); }
 
-.Exit{
+a {
+    font-family: 'Impact';
+    color: aqua;
+    text-shadow: 0px 5px 10px #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.Exit {
     font-family: 'Impact';
     color: Snow;
     font-weight: bold;
-    text-shadow:0px 5px 10px #05fff9;
+    text-shadow: 0px 5px 10px #05fff9;
 }
 
-.player{
+.player {
     background-color: transparent;
-    border-top:7px outset #30e4ff;
-    border-right:7px outset #30e4ff;
-    border-bottom:7px outset #30e4ff;
-    border-left:7px outset #30e4ff;
-    -webkit-box-shadow:0px 0px 5px 5px #ffffff ;
-    -moz-box-shadow:0px 0px 5px 5px #ffffff ;
-    box-shadow:0px 0px 5px 5px #ffffff ;
+    border-top: 7px outset #30e4ff;
+    border-right: 7px outset #30e4ff;
+    border-bottom: 7px outset #30e4ff;
+    border-left: 7px outset #30e4ff;
+    -webkit-box-shadow: 0px 0px 5px 5px #ffffff;
+    -moz-box-shadow: 0px 0px 5px 5px #ffffff;
+    box-shadow: 0px 0px 5px 5px #ffffff;
     font-family: 'Andale Mono';
     color: snow;
-    text-shadow:0px 5px 10px aqua;
+    text-shadow: 0px 5px 10px aqua;
     font-weight: bold;
     font-size: 0.7em;
     text-align: center;
@@ -118,23 +108,23 @@ right: 5px;
 
 }
 
-.player2{
+.player2 {
     background-color: transparent;
-    border-top:7px outset #30e4ff;
-    border-right:7px outset #30e4ff;
-    border-bottom:7px outset #30e4ff;
-    border-left:7px outset #30e4ff;
-    -webkit-box-shadow:0px 0px 5px 5px #ffffff ;
-    -moz-box-shadow:0px 0px 5px 5px #ffffff ;
-    box-shadow:0px 0px 5px 5px #ffffff ;
+    border-top: 7px outset #30e4ff;
+    border-right: 7px outset #30e4ff;
+    border-bottom: 7px outset #30e4ff;
+    border-left: 7px outset #30e4ff;
+    -webkit-box-shadow: 0px 0px 5px 5px #ffffff;
+    -moz-box-shadow: 0px 0px 5px 5px #ffffff;
+    box-shadow: 0px 0px 5px 5px #ffffff;
 
     position: absolute;
     bottom: 45px;
     left: 60%;
-   
+
     font-family: 'Andale Mono';
     color: snow;
-    text-shadow:0px 5px 10px aqua;
+    text-shadow: 0px 5px 10px aqua;
     font-weight: bold;
     font-size: 0.9em;
     margin-left: 0.5em;

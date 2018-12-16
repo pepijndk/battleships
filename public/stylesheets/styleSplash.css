@@ -111,16 +111,7 @@ h6 {
     text-align: inline;
 }
 
-.button {
-    padding: 10px;
-    border-radius: 50px;
-    font-weight: normal;
-    text-decoration: none;
-    text-transform: none;
-    background-image: aqua;
-    font-size: 20px;
-    background: rgb(0, 0, 0);
-}
+
 
 .button:hover {
     background: rgb(58, 249, 102);
