@@ -1,14 +1,15 @@
 
 <html><head>
-        <!-- Heading tag of page --> 
+        <!-- Heading tag of page -->
         <title>Battle space ships</title>
+        <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
         <link href="stylesheets/stylePreGame.css" rel="stylesheet" type="text/css">
        <!-- (STYLE SHEET EXAMPLE *to be added later* ) <link rel="stylesheet" href="stylesheets/splash.css"> -->
     </head>
 
         <body>
-            
-            <header>   
+
+            <header>
             <!-- This is the main text header -->
             <h1>BATTLE <span> SPACE  </span> SHIPS</h1>
             </header>
@@ -19,7 +20,7 @@
 
                     <!--Game set up-->
                     <div>
-                        
+
                     </div>
 
                     <div>
@@ -37,13 +38,13 @@
                     </div>>
 
                     <div class="play">
-                            <h3>Press <a href="test.html"> <span id="setupspan"> PLAY </span></a>  when ready!</h3>
+                            <h3>Press <a href="game.html"> <span>PLAY </span></a>  when ready!</h3>
                     </div>
 
-                    <div class="setup">
+                    <div class="rules">
                         <h4>Instructions<br></h4>
-                        <p><br>To place a ship on the grid hover over it, <br>click then drag and drop onto the grid.<br></p>
-                        <p><br>You can rotate a ship by pressing "r" on the <br> keyboard whilst it has been clicked.<br><br></p>
+                        <p><br>To place a ship on the grid <br> hover over it & click to drag <br> and drop onto the grid.<br></p>
+                        <p><br>You can rotate a ship by <br> pressing "r" on the  keyboard <br>whilst it has been clicked.<br><br></p>
                     </div>
 
                     <h5>Ships available:</h5>
@@ -55,17 +56,12 @@
                             <img src="images/saucer.png" class="image5" alt="Ufo1">
                             <img src="images/saucer.png" class="image6" alt="Ufo2">
                         </div>
-                    <!-- STILL TO ADD -->
-                    <!-- 
-                        - Grid (Users and oponents)
-                        - Chat forum
-                        - Navigation of Settings
-                        - Changing indication of player turns
-                        - Animations of hit miss and destroy
-                    -->
-                    
+
+
+                    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+                    <script src="gridInterface.js"></script>
+                    <script src="splashScreen.js"></script>
+
                 </main>
-            <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-            <script src="gridInterface.js"></script>
-            <script src="splashScreen.js"></script>
+
 </body></html>

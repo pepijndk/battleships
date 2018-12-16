@@ -2,6 +2,7 @@
 <html><head>
         <!-- Heading tag of page --> 
         <title>Battle space ships</title>
+        <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
         <link href="stylesheets/styleInGame.css" rel="stylesheet" type="text/css">
        <!-- (STYLE SHEET EXAMPLE *to be added later* ) <link rel="stylesheet" href="stylesheets/splash.css"> -->
     </head>
@@ -28,10 +29,18 @@
                             <p class="caption">Poke to mute</p>
                         </div>
 
-                        <div class="grid">
-                                <img src="images/grid.png" class="gridImage1" id="grid">
-                                <img src="images/grid.png" class="gridImage2" id="grid2">
-                        </div>>
+                        <div class="gridDiv1"> <img src="images/grid.png" class="gridImage1" id="grid">
+                            <div class="player">
+                                <h4>Your quadrant</h4>
+                            </div>
+                        </div>
+
+                        <div class="gridDiv2"><img src="images/grid.png" class="gridImage2" id="grid2">
+                            <div class="player">
+                                <h5>Opponents quadrant</h5>
+                            </div>
+
+                        </div>
 
                         <div class="exit">
                                 <h3>Hit the exit button <br>& return to the home screen.</h3>
@@ -40,13 +49,9 @@
                                     </button>
                         </div>
 
-                        <div class="player1">
-                                <h4>Your quadrant</h4>
-                        </div>
 
-                        <div class="player2">
-                                <h5>Opponents quadrant</h5>
-                        </div>
+
+
                     
                 </main>
             <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
