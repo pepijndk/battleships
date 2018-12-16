@@ -53,12 +53,139 @@ h2{
 
 .volume {
     position: absolute;
-    top: 8px;
-    right: 16px;
+    top:0px;
+    right:0px;
     cursor:pointer;
-    font-family: 'Impact';
+    font-family: 'Andale Mono';
     font-display: bold;
+    display:inline;
     color: Snow;
-    text-align: right;
+    text-align: inline;
     border: none;
+
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    padding-right: 30px;
+    padding-top: 30px;
+
+
+    
+}
+
+.image1{
+    /*position: inline;*/
+    /*transform:matrix(0.30,0.00,0.00,0.30,0,0);*/
+    /*-ms-transform:matrix(0.30,0.00,0.00,0.30,0,0);*/
+    /*-webkit-transform:matrix(0.30,0.00,0.00,0.30,0,0);*/
+    width: 60px;
+}
+
+.caption {
+display: block;
+
+}
+
+.gridImage1 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+  }
+  .gridImage2 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .exit{
+    background-color: transparent;
+    border-top:5px outset #30e4ff;
+    border-right:5px outset #30e4ff;
+    border-bottom:5px outset #30e4ff;
+    border-left:5px outset #30e4ff; 
+    -webkit-box-shadow:0px 0px 5px 5px #ffffff ;
+    -moz-box-shadow:0px 0px 5px 5px #ffffff ;
+    box-shadow:0px 0px 5px 5px #ffffff ;
+    position: absolute;
+    padding-right: 50px;
+    padding-left: 50px;
+    bottom: 5px;
+    right: 5px;
+  }
+
+  h3{
+    font-family: 'Andale Mono';
+    color: Snow;
+    display:inline;
+    font-size: 0.75em;
+    margin-left: 0em;
+  }
+
+  .button {
+    padding: 10px; border-radius: 50px; 
+    font-weight: normal; 
+    text-decoration: none; 
+    text-transform: none; 
+    background-image:aqua; 
+}
+    .button1:hover {
+    background: rgb(58, 249, 102); }
+    .button1:active {
+    background:rgb(58, 249, 102); }
+
+.Exit{
+    font-family: 'Impact';
+    color: Snow;
+    font-weight: bold;
+    text-shadow:0px 5px 10px #05fff9;
+}
+
+.player1{
+    background-color: transparent;
+    border-top:7px outset #30e4ff;
+    border-right:7px outset #30e4ff;
+    border-bottom:7px outset #30e4ff;
+    border-left:7px outset #30e4ff;
+    -webkit-box-shadow:0px 0px 5px 5px #ffffff ;
+    -moz-box-shadow:0px 0px 5px 5px #ffffff ;
+    box-shadow:0px 0px 5px 5px #ffffff ;
+    position: absolute;
+    bottom: 75px;
+    left: 420px;
+ 
+
+    font-family: 'Impact';
+    color: snow;
+    text-shadow:0px 5px 10px aqua;
+    font-weight: bold;
+
+    font-size: 1em;
+    margin-left: 0.5em;
+}
+
+.player2{
+    background-color: transparent;
+    border-top:7px outset #30e4ff;
+    border-right:7px outset #30e4ff;
+    border-bottom:7px outset #30e4ff;
+    border-left:7px outset #30e4ff;
+    -webkit-box-shadow:0px 0px 5px 5px #ffffff ;
+    -moz-box-shadow:0px 0px 5px 5px #ffffff ;
+    box-shadow:0px 0px 5px 5px #ffffff ;
+
+    position: absolute;
+    bottom: 75px;
+    left: 1100px;
+   
+    font-family: 'Impact';
+    color: snow;
+    text-shadow:0px 5px 10px aqua;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 0.5em;
 }

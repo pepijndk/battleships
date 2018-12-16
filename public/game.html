@@ -1,7 +1,5 @@
 
-<!DOCTYPE html>
-<html>
-    <head>
+<html><head>
         <!-- Heading tag of page --> 
         <title>Battle space ships</title>
         <link href="stylesheets/styleInGame.css" rel="stylesheet" type="text/css">
@@ -16,32 +14,43 @@
             </header>
                 <main>
                     <!-- Header for when it is the users turn -->
-                    <div class= "player1">
+                    <div class="playerswitch">
                         <h2>It is your turn to <span class="fire">FIRE!</span></h2>
                     </div>
                     <!-- Header for when it is the opponents turn -->
-                    <div class= "opponent">
+                    <div class="opponent">
                         <h2>Hold your fire! It's your opponents turn...</h2>
                     </div>
 
-                    <!-- div to make element moveable -->
-                    <div class= "volume">
-                        <img src= "images/impressed-alien2.png" alt= "Alien icon for volume control">
-                        <p><a href= "images/impressed-alien2.png"></a> Volume </p> <!-- Links alien icon to volume control -->
-                    </div>
+                      <!-- div to make element moveable -->
+                      <div class="volume">
+                            <img src="images/impressed-alien2.png" class="image1" alt="Alien icon for volume control">
+                            <p class="caption">Poke to mute</p>
+                        </div>
 
-                    <!-- Block to build grids -->
-                    
+                        <div class="grid">
+                                <img src="images/grid.png" class="gridImage1" id="grid">
+                                <img src="images/grid.png" class="gridImage2" id="grid2">
+                        </div>>
 
-                    <!-- STILL TO ADD -->
-                    <!-- 
-                        - Grid (Users and oponents)
-                        - Chat forum
-                        - Navigation of Settings
-                        - Changing indication of player turns
-                        - Animations of hit miss and destroy
-                    -->
+                        <div class="exit">
+                                <h3>Hit the exit button <br>& return to the home screen.</h3>
+                                    <button class="button">
+                                    <a id="Exit" href="splash.html">EXIT</a>
+                                    </button>
+                        </div>
+
+                        <div class="player1">
+                                <h4>Your quadrant</h4>
+                        </div>
+
+                        <div class="player2">
+                                <h5>Opponents quadrant</h5>
+                        </div>
                     
                 </main>
-        </body>
-</html>
+            <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+            <script src="gridInterface.js"></script>
+            <script src="Game.js"></script>
+        
+</body></html>
