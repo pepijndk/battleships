@@ -1,0 +1,100 @@
+body{
+    background: url("../images/starry-sky-1655503.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    position: 100% 0%;
+}
+
+h1
+{
+    font-family: 'Impact';
+    color: Snow;
+    font-weight: bold;
+    display:inline;
+    text-shadow:0px 5px 10px #05fff9;
+    font-size: 3em;
+    margin-left: 0.25em;
+    margin-right: 0;
+
+}
+
+span
+{
+    font-family: 'Impact';
+    color: aqua;
+    font-weight: bold;
+    display:inline;
+    text-shadow:0px 5px 10px #ffffff;
+    font-size: 1em;
+    margin-left: 0.25em;
+    margin-right: 0;
+}
+
+.volume {
+    position: absolute;
+    top:0px;
+    right:0px;
+    cursor:pointer;
+    font-family: 'Andale Mono';
+    font-display: bold;
+    display:inline;
+    color: Snow;
+    text-align: inline;
+    border: none;
+
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    padding-right: 30px;
+    padding-top: 30px;
+
+
+
+}
+
+.rules {
+    background-color: transparent;
+    border-top: 7px outset #30e4ff;
+    border-right: 7px outset #30e4ff;
+    border-bottom: 7px outset #30e4ff;
+    border-left: 7px outset #30e4ff;
+    -webkit-box-shadow: 0px 0px 5px 5px #ffffff;
+    -moz-box-shadow: 0px 0px 5px 5px #ffffff;
+    box-shadow: 0px 0px 5px 5px #ffffff;
+
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    min-width: 50px;
+    min-height: 100px;
+    max-width: 500px;
+    max-height: 400px;
+    padding: 20px;
+}
+
+.image1{
+    width: 60px;
+}
+
+.caption {
+    display: block;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    background-image: aqua;
+    font-size: 20px;
+    background: rgb(0, 0, 0);
+}
+
+
+
+
+
